@@ -1,0 +1,3 @@
+pip install "tensorflow<2"
+pip install "csbdeep[tf1]"
+pip install "stardist[tf1]"
