@@ -41,7 +41,7 @@ mkdir /projappl/project_xxxx/www_puhti_modules && cp StarDist-2D-ZeroCostDL4Mic-
 1. Login to [Puhti web interface](https://www.puhti.csc.fi/public/login.html)
 2. Login with CSC or course credentials (Users should have accepted Puhti service in [myCSC](https://my.csc.fi/welcome) page under a course ( or own) project before using this service). 
 3. Once login is successfull, select "Interactive Sessions" on the top menu bar and then click "Jupyter for courses". You should be able to to "StarDist-2D-ZeroCostDL4Mic" environment under your project. Enter all other necessary parameters.
-4. Upon successful launching a job, you can click on "connect to Jupyter" to see ZeroCostDL4Mic.
+4. Upon successful launching a job, you can click on "connect to Jupyter" to see stardist-2D-ZeroCostDL4Mic notebook.
 
 
 ### Convert TF2 model to TF1 one 
