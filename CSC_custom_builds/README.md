@@ -1,6 +1,6 @@
 
 
-### Installing necessary python packages to *projappl* directory using *tykky*:
+### Installing necessary python packages to *projappl* directory using *tykky*
 
 Tykky wraps installations inside singularity container for improved performance metrics including faster startup times, reduced IO load, and  fewer number of files on large parallel filesystems. Please refer to CSC documentation on [tykky](https://docs.csc.fi/computing/containers/tykky/) for more detailed information.
 
@@ -12,7 +12,7 @@ mkdir scartch/project_xxxx/user_name && cd /scartch/project_xxxx/user_name
 git clone https://github.com/yetulaxman/ZeroCostDL4Mic.git
 cd ZeroCostDL4Mic/CSC_custom_builds/
 chmod +x script_tf2.sh
-# install TF2 compute environment needed for ZeroCostDL4Mic
+# install TF2 compute environment needed for StarDist-2D-ZeroCostDL4Mic model
 ./script_tf2.sh
 # install TF1 compute environment for model conversion
 chmod +x script_tf1.sh
@@ -40,7 +40,7 @@ mkdir /projappl/project_xxxx/www_puhti_modules && cp StarDist-2D-ZeroCostDL4Mic-
 
 1. Login to [Puhti web interface](https://www.puhti.csc.fi/public/login.html)
 2. Login with CSC or course credentials (Users should have accepted Puhti service in [myCSC](https://my.csc.fi/welcome) page under a course ( or own) project before using this service). 
-3. Once login is successfull, select "Interactive Sessions" on the top menu bar and then click "Jupyter for courses".  Enter the necessary parameters.
+3. Once login is successfull, select "Interactive Sessions" on the top menu bar and then click "Jupyter for courses". You should be able to to "StarDist-2D-ZeroCostDL4Mic" environment under your project. Enter all other necessary parameters.
 4. Upon successful launching a job, you can click on "connect to Jupyter" to see ZeroCostDL4Mic.
 
 
