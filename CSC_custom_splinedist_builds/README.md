@@ -8,7 +8,7 @@ For the installation of computational environment required for ZeroCostDL4Mic mo
 
 ```bash
 # login to Puhti super computer  
-mkdir scartch/project_xxxx/user_name && cd /scartch/project_xxxx/user_name
+mkdir /scartch/project_xxxx/user_name && cd /scartch/project_xxxx/user_name
 git clone https://github.com/yetulaxman/ZeroCostDL4Mic.git
 cd ZeroCostDL4Mic/CSC_custom_splinedist_builds/
 chmod +x script_splinedist.sh
@@ -31,7 +31,6 @@ Copy those two files (i.e., SplineDist-2D-ZeroCostDL4Mic-resources.yml and Splin
 mkdir /projappl/project_xxxx/www_puhti_modules && cp SplineDist-2D-ZeroCostDL4Mic-resources.yml 	SplineDist-2D-ZeroCostDL4Mic.lua  /projappl/project_xxxx/www_puhti_modules
 
 ```
-
 
 ### Accessing notebook via Puhti web interface
 
