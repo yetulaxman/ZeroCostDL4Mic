@@ -1,8 +1,8 @@
 # Deploying Google Colab notebooks in CSC environment
 
-ZeroCostDL4Mic deeplearning notebooks which are originally adopted from the GitHub repository [ZeroCostDL4Mic](https://github.com/HenriquesLab/ZeroCostDL4Mic/wiki) are customised to work in CSC environment. Researcher working in microscopy, with  little or no coding expertise can use these popular deep learning models. 
+ZeroCostDL4Mic deeplearning notebooks which are originally adapted from the GitHub repository [ZeroCostDL4Mic](https://github.com/HenriquesLab/ZeroCostDL4Mic/wiki), are customised to work in CSC environment. Researcher working in microscopy, with  little or no coding expertise can use these popular deep learning models. 
 
-CSC hosts notebooks on Puhti supercomputing environment. A CSC user is expected to have a [user account at CSC](https://docs.csc.fi/accounts/how-to-create-new-user-account/) and be a member of a project that [has access to the Puhti service](https://docs.csc.fi/accounts/how-to-add-service-access-for-project/).  Participants can use either [Puhti web interface](www.puhti.csc.fi) or [SSH client](https://csc-training.github.io/csc-env-eff/hands-on/connecting/ssh-puhti.html) for logging into Puhti. The familiarity with the following main topics help you get started smoothly with hackathon:
+CSC hosts notebooks on Puhti supercomputing environment. A CSC user is expected to have a [user account at CSC](https://docs.csc.fi/accounts/how-to-create-new-user-account/) and be a member of a project that [has access to the Puhti service](https://docs.csc.fi/accounts/how-to-add-service-access-for-project/). Users can use either [Puhti web interface](www.puhti.csc.fi) or [SSH client](https://csc-training.github.io/csc-env-eff/hands-on/connecting/ssh-puhti.html) for logging into Puhti. The familiarity with the following main topics help you get started smoothly with notebooks:
 
 - [A brief primer on using Puhti computing environment](#a-brief-primer-on-using-puhti-computing-environment)
 - [Preparing a custom Jupyter notebook](#preparing-a-custom-jupyter-notebook)
