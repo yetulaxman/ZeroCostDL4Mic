@@ -1,24 +1,6 @@
-# ZeroCostDL4Mic: exploiting Google Colab to develop a free and open-source toolbox for Deep-Learning in microscopy
+# Deploying Google Colab notebooks in CSC supercomputers.
 
-_**Tl;dr**_: this [**wiki page**][wikiPage] has everything you need to get started.
-
-[![DOI](https://zenodo.org/badge/239971181.svg)](https://zenodo.org/badge/latestdoi/239971181)
-
-## What is this?
-
-ZeroCostDL4Mic is a collection of self-explanatory Jupyter Notebooks for [**Google Colab**][1] that features an **easy-to-use graphical user interface**. They are meant to quickly get you started on learning to use deep-learning for microscopy. Google Colab itself **provides the computations resources needed at no-cost**. **ZeroCostDL4Mic** is designed for researchers that have little or no coding expertise to quickly test, train and use popular Deep-Learning networks.
-
-## Want to see a short video demonstration?
-
-| Running a ZeroCostDL4Mic notebook | Example data in ZeroCostDL4Mic | Romain's talk @ Aurox conference | Talk @ SPAOM |
-|:-:|:-:|:-:|:-:|
-| [![](https://github.com/HenriquesLab/ZeroCostDL4Mic/blob/master/Wiki_files/ZeroCostDL4Mic_SuppVideo1_Running_a_notebook.jpg)](https://youtu.be/TrDuidvO85s) | [![](https://github.com/HenriquesLab/ZeroCostDL4Mic/blob/master/Wiki_files/ZeroCostDL4Mic_SuppVideo2_Analysis_of_example_data.jpg)](https://youtu.be/KauKEr0Kkkc) | [![](https://github.com/HenriquesLab/ZeroCostDL4Mic/blob/master/Wiki_files/ScreenShot_AuroxTalk_resized.jpg)](https://youtu.be/rCEbYOnNJp0) | [![](https://github.com/HenriquesLab/ZeroCostDL4Mic/blob/master/Wiki_files/ZDL4_SPAOM.jpg)](https://www.youtube.com/watch?v=ozffChqtgJw) |
-
-## Who is it for?
-
-Any researcher interested in microscopy, independent of their background training. **ZeroCostDL4Mi**c is designed for anyone with little or no coding expertise to quickly test, train and use popular Deep-Learning networks used to process microscopy data.
-
-# Deploying custom notebooks at CSC
+ZeroCostDL4Mic deeplearning notebooks which are originally adopted from the GitHub repository [ZeroCostDL4Mic](https://github.com/HenriquesLab/ZeroCostDL4Mic/wiki) are customised to work in CSC environment. Researcher working in microscopy, with  little or no coding expertise can use these popular deep learning models. 
 
 CSC hosts notebooks on Puhti supercomputing environment. A CSC user is expected to have a [user account at CSC](https://docs.csc.fi/accounts/how-to-create-new-user-account/) and be a member of a project that [has access to the Puhti service](https://docs.csc.fi/accounts/how-to-add-service-access-for-project/).  Participants can use either [Puhti web interface](www.puhti.csc.fi) or [SSH client](https://csc-training.github.io/csc-env-eff/hands-on/connecting/ssh-puhti.html) for logging into Puhti. The familiarity with the following main topics help you get started smoothly with hackathon:
 
@@ -27,7 +9,7 @@ CSC hosts notebooks on Puhti supercomputing environment. A CSC user is expected 
 - [Creating a course environment/module(s) on Puhti Web Interface](#creating-a-course-environment-module-on-puhti-web-interface)
 - [Accessing notebook *via* Puhti web interface](#accessing-notebook-via-puhti-web-interface)
 - [Useful CSC documentation](#useful-CSC-documentation)
-- [Acknowledgements](#acknowledgements)
+- [Acknowledgements and citation](#acknowledgements-and-citation)
   
 ## A Brief Primer on Using Puhti Computing Environment
   - **Module system**: CSC uses module system to manage complex application stack in supercomputing environment. Applications installed as modules can easily be used in both interactive and batch jobs. The detailed instructions on using modularised applications can be found in [CSC documentation pages](https://docs.csc.fi/computing/modules/) as well as a [CSC course page](https://csc-training.github.io/csc-env-eff/hands-on/modules/modules-puhti.html)
@@ -68,16 +50,14 @@ Once you have set up modules as instructed above, a module named, notebook is vi
 
 4. Upon successful launching a job, you can click on "connect to Jupyter" to see the course notebook corresponding to your custom installations
 
-##  Useful CSC Documentation
+## Useful CSC Documentation
 
 - [Jupyter for course](https://docs.csc.fi/computing/webinterface/jupyter-for-courses/)
 - [Tykky containerisation](https://docs.csc.fi/computing/containers/tykky/)
     
-## Acknowledgements
+## Acknowledgements and citation
 
 This project initiated as a collaboration between the [**Jacquemet**][6] and [**Henriques**][5] laboratories, considerably expanding with the help of laboratories spread across the planet. There is a long list of contributors associated with the project acknowledged in our [**related paper**](https://www.nature.com/articles/s41467-021-22518-0) and the [**wiki page**][wikiPageContributors].
-
-## How to cite this work
 
 _Lucas von Chamier*,  Romain F. Laine*, Johanna Jukkala,  Christoph Spahn, Daniel Krentzel, Elias Nehme,  Martina Lerche, Sara Hernández-pérez,  Pieta Mattila,  Eleni Karinou,  Séamus Holden, Ahmet Can Solak,  Alexander Krull,  Tim-Oliver Buchholz,  Martin L Jones,  Loic Alain Royer,  Christophe Leterrier, Yoav Shechtman,  Florian Jug,  Mike Heilemann,  Guillaume Jacquemet,  Ricardo Henriques. 
 **Democratising deep learning for microscopy with ZeroCostDL4Mic. Nature Communications, 2021.** 
