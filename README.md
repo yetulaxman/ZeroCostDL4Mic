@@ -1,4 +1,4 @@
-# Deploying Google Colab notebooks in CSC supercomputers.
+# Deploying Google Colab notebooks in CSC environment
 
 ZeroCostDL4Mic deeplearning notebooks which are originally adopted from the GitHub repository [ZeroCostDL4Mic](https://github.com/HenriquesLab/ZeroCostDL4Mic/wiki) are customised to work in CSC environment. Researcher working in microscopy, with  little or no coding expertise can use these popular deep learning models. 
 
