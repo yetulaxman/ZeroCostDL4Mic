@@ -6,7 +6,7 @@ CSC hosts notebooks on Puhti supercomputing environment. A CSC user is expected 
 
 - [A brief primer on using Puhti computing environment](#a-brief-primer-on-using-puhti-computing-environment)
 - [Preparing a custom Jupyter notebook](#preparing-a-custom-jupyter-notebook)
-- [Creating a course environment/module(s) on Puhti Web Interface](#creating-a-course-environment-module-on-puhti-web-interface)
+- [Creating a custom environment/module(s) on Puhti Web Interface](#creating-a-course-environment-module-on-puhti-web-interface)
 - [Accessing notebook *via* Puhti web interface](#accessing-notebook-via-puhti-web-interface)
 - [Useful CSC documentation](#useful-CSC-documentation)
 - [Acknowledgements and citation](#acknowledgements-and-citation)
@@ -29,7 +29,7 @@ Conda installations should not be done directly on Puhti. [Tykky wrapper tool](h
 The  example of tykky-based custom installation for three deep learning models namely, StarDist-2D-ZeroCostDL4Mic, SplineDist-2D-ZeroCostDL4Mic and EmbedSeg-2D-ZeroCostDL4Mic can be found in the individual folders.
 
 
-### Creating a Course Environment Module on Puhti Web Interface
+### Creating a Custom Environment Module on Puhti Web Interface
 
 One has to create a course environments (modules) in the directory /projappl/project_xxxx/www_puhti_modules/ to be able to see a course module in Puhti web insterface ("under Jupyter for courses") . The www_puhti_modules directory can be created if it does not exist. Please note that module_name has to be unique accross the project members. 
 
